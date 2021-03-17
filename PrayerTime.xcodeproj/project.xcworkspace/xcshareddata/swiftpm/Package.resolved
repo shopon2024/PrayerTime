@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "AKPrayerTime",
+        "repositoryURL": "https://github.com/shopon2024/PrayerTimes-Swift",
+        "state": {
+          "branch": null,
+          "revision": "1aaf1ec1e5748a1c3104d4cde483f341359d68fc",
+          "version": "1.0.1"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
