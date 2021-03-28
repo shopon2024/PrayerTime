@@ -10,8 +10,13 @@
 		1720B20826027BAB000D556C /* Prayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1720B20726027BAB000D556C /* Prayer.swift */; };
 		172CC3E62601EF0D00F5C807 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172CC3E52601EF0D00F5C807 /* Color.swift */; };
 		172CC3EF2602571900F5C807 /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172CC3EE2602571900F5C807 /* CarouselView.swift */; };
+		17442D89260A47B900376A04 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17442D88260A47B900376A04 /* LocationManager.swift */; };
+		17442D94260A583D00376A04 /* DateCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17442D93260A583D00376A04 /* DateCardView.swift */; };
+		174F23702606164C003634D8 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174F236F2606164C003634D8 /* CardView.swift */; };
+		174F237826063D8D003634D8 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174F237726063D8D003634D8 /* SettingsView.swift */; };
+		174F237D260667CC003634D8 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174F237C260667CC003634D8 /* MapView.swift */; };
+		17600C3F260F0F6B00642D23 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17600C3E260F0F6B00642D23 /* HomeViewModel.swift */; };
 		179B6E2825FFBFC400A4B8B7 /* PrayerTimeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179B6E2725FFBFC400A4B8B7 /* PrayerTimeApp.swift */; };
-		179B6E2A25FFBFC400A4B8B7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179B6E2925FFBFC400A4B8B7 /* ContentView.swift */; };
 		179B6E2C25FFBFC500A4B8B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 179B6E2B25FFBFC500A4B8B7 /* Assets.xcassets */; };
 		179B6E2F25FFBFC500A4B8B7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 179B6E2E25FFBFC500A4B8B7 /* Preview Assets.xcassets */; };
 		179B6E3A25FFBFC500A4B8B7 /* PrayerTimeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179B6E3925FFBFC500A4B8B7 /* PrayerTimeTests.swift */; };
@@ -20,6 +25,7 @@
 		179B6E5C25FFC46400A4B8B7 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179B6E5B25FFC46400A4B8B7 /* Config.swift */; };
 		179B6EB225FFD9AA00A4B8B7 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179B6EB125FFD9AA00A4B8B7 /* HomeView.swift */; };
 		179B6EBB25FFDA5D00A4B8B7 /* PrayerCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179B6EBA25FFDA5D00A4B8B7 /* PrayerCard.swift */; };
+		17C2FAF8260D0CA60077F11F /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C2FAF7260D0CA60077F11F /* SettingsViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,9 +49,14 @@
 		1720B20726027BAB000D556C /* Prayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prayer.swift; sourceTree = "<group>"; };
 		172CC3E52601EF0D00F5C807 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		172CC3EE2602571900F5C807 /* CarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
+		17442D88260A47B900376A04 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		17442D93260A583D00376A04 /* DateCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateCardView.swift; sourceTree = "<group>"; };
+		174F236F2606164C003634D8 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		174F237726063D8D003634D8 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		174F237C260667CC003634D8 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		17600C3E260F0F6B00642D23 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		179B6E2425FFBFC400A4B8B7 /* PrayerTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrayerTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		179B6E2725FFBFC400A4B8B7 /* PrayerTimeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerTimeApp.swift; sourceTree = "<group>"; };
-		179B6E2925FFBFC400A4B8B7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		179B6E2B25FFBFC500A4B8B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		179B6E2E25FFBFC500A4B8B7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		179B6E3025FFBFC500A4B8B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -58,6 +69,7 @@
 		179B6E5B25FFC46400A4B8B7 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 		179B6EB125FFD9AA00A4B8B7 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		179B6EBA25FFDA5D00A4B8B7 /* PrayerCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerCard.swift; sourceTree = "<group>"; };
+		17C2FAF7260D0CA60077F11F /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				1720B20726027BAB000D556C /* Prayer.swift */,
+				179B6E5B25FFC46400A4B8B7 /* Config.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -100,6 +113,23 @@
 				172CC3E52601EF0D00F5C807 /* Color.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		17442D87260A47A300376A04 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				17442D88260A47B900376A04 /* LocationManager.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		17600C3D260F0F4F00642D23 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				17600C3E260F0F6B00642D23 /* HomeViewModel.swift */,
+				17C2FAF7260D0CA60077F11F /* SettingsViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 		179B6E1B25FFBFC400A4B8B7 = {
@@ -128,12 +158,12 @@
 				179B6E2725FFBFC400A4B8B7 /* PrayerTimeApp.swift */,
 				1720B20626027B90000D556C /* Model */,
 				179B6EB925FFDA3300A4B8B7 /* Views */,
+				17600C3D260F0F4F00642D23 /* ViewModels */,
+				17442D87260A47A300376A04 /* Helper */,
 				172CC3E42601EEFE00F5C807 /* Extension */,
-				179B6E2925FFBFC400A4B8B7 /* ContentView.swift */,
 				179B6E2B25FFBFC500A4B8B7 /* Assets.xcassets */,
 				179B6E3025FFBFC500A4B8B7 /* Info.plist */,
 				179B6E2D25FFBFC500A4B8B7 /* Preview Content */,
-				179B6E5B25FFC46400A4B8B7 /* Config.swift */,
 			);
 			path = PrayerTime;
 			sourceTree = "<group>";
@@ -170,6 +200,10 @@
 				179B6EB125FFD9AA00A4B8B7 /* HomeView.swift */,
 				179B6EBA25FFDA5D00A4B8B7 /* PrayerCard.swift */,
 				172CC3EE2602571900F5C807 /* CarouselView.swift */,
+				174F236F2606164C003634D8 /* CardView.swift */,
+				174F237726063D8D003634D8 /* SettingsView.swift */,
+				174F237C260667CC003634D8 /* MapView.swift */,
+				17442D93260A583D00376A04 /* DateCardView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -309,13 +343,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				179B6E2A25FFBFC400A4B8B7 /* ContentView.swift in Sources */,
+				17442D94260A583D00376A04 /* DateCardView.swift in Sources */,
 				179B6EBB25FFDA5D00A4B8B7 /* PrayerCard.swift in Sources */,
 				1720B20826027BAB000D556C /* Prayer.swift in Sources */,
 				179B6EB225FFD9AA00A4B8B7 /* HomeView.swift in Sources */,
+				17442D89260A47B900376A04 /* LocationManager.swift in Sources */,
+				174F237826063D8D003634D8 /* SettingsView.swift in Sources */,
 				179B6E2825FFBFC400A4B8B7 /* PrayerTimeApp.swift in Sources */,
 				172CC3EF2602571900F5C807 /* CarouselView.swift in Sources */,
+				17C2FAF8260D0CA60077F11F /* SettingsViewModel.swift in Sources */,
+				17600C3F260F0F6B00642D23 /* HomeViewModel.swift in Sources */,
 				179B6E5C25FFC46400A4B8B7 /* Config.swift in Sources */,
+				174F237D260667CC003634D8 /* MapView.swift in Sources */,
+				174F23702606164C003634D8 /* CardView.swift in Sources */,
 				172CC3E62601EF0D00F5C807 /* Color.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

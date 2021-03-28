@@ -15,7 +15,6 @@ struct CarouselView: View {
     let prayers: [Prayer]
     let spacing: CGFloat = 16
     let widthOfHiddenCards: CGFloat = 32
-    let cardHeight: CGFloat = 280
     let numberOfCards: CGFloat = 5
     let totalSpacing: CGFloat = 4*16 // (numberOfCards - 1)*spacing
 
@@ -28,10 +27,11 @@ struct CarouselView: View {
         let activeOffset = xOffsetToShift + leftPadding - (totalMovement * activeCardIndex)
         let calculatedOffset = activeOffset + screenDragOffset
         
-        HStack(alignment: .center, spacing: spacing) {
+        HStack(spacing: spacing) {
             ForEach(prayers) { prayer in
-                PrayerCard()
-                    .frame(width: cardWidth, height: prayer.id == Int(activeCardIndex) ? cardHeight : cardHeight - 40, alignment: .center)
+                PrayerCard(prayer: prayer)
+                    .frame(width: cardWidth)
+                    .transition(AnyTransition.slide)
                     .animation(.spring())
             }
         }
@@ -39,7 +39,10 @@ struct CarouselView: View {
         .gesture(
             DragGesture()
                 .updating($isLongPress) { currentState, _, _ in
-                    screenDragOffset = currentState.translation.width
+                    DispatchQueue.main.async {
+                        self.screenDragOffset = currentState.translation.width
+                    }
+                    
                 }
                 .onEnded { value in
                     screenDragOffset = 0

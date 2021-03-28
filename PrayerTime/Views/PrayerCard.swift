@@ -8,11 +8,13 @@
 import SwiftUI
 
 struct PrayerCard: View {
+    let prayer: Prayer
+    
     var body: some View {
         VStack(alignment: .leading, spacing: 8){
             HStack {
                 LinearGradient(gradient: Gradient(colors: [.appBlue, .appGray]), startPoint: .leading, endPoint: .trailing)
-                    .mask(Image(systemName: "moon.stars.fill"))
+                    .mask(Image(systemName: prayer.waqt.icon))
                     .font(Font.system(size: 26, weight: .bold))
                     .frame(width: 50, height: 50)
                     .padding([.leading, .bottom], 4)
@@ -31,13 +33,13 @@ struct PrayerCard: View {
                     )
             }
             .padding([.leading, .trailing], 4)
-            
+
             Text("Upcoming Payer")
                 .foregroundColor(.appGray)
                 .font(.body)
                 .padding(.leading, 8)
             
-            Text("Magrib at 21:02")
+            Text("\(prayer.waqt.name) at \(prayer.time)")
                 .foregroundColor(.appBlack)
                 .font(.title)
                 .bold()
@@ -51,7 +53,7 @@ struct PrayerCard: View {
 
 struct PrayerCard_Previews: PreviewProvider {
     static var previews: some View {
-        PrayerCard()
-            .frame(width: 300, height: 100, alignment: .center)
+        PrayerCard(prayer: Prayer.stubs.first!)
+            .frame(width: 300, alignment: .center)
     }
 }
